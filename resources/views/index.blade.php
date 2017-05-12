@@ -129,7 +129,7 @@
 			</div>
 			</div>
 			<div class="col-md-12 gallery ">
-			<div class="pattern">
+		<!-- 	<div class="pattern"> -->
 			<h3 class="title-gallery">~Gallery~ </h3>
 				<div class="container">
 					<div class="row">
@@ -156,7 +156,7 @@
 					</div>
 				</div>
 				</div>
-				</div>
+				<!-- </div> -->
 				</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>

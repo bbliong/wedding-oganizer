@@ -196,7 +196,12 @@
 }
 .carousel:after { 
     content: '';
-	background-image : linear-gradient(360deg, transparent 5%, rgba(0,0,0,.6) 100%);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.37+0,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.37) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.37) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.37) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 
@@ -339,8 +344,11 @@
 	position: relative;
 	margin : 0;
 	padding : 0;
+	background-color: #F1EEE9;
+background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-.pattern {
+/*.pattern {
 	background-color: #f1eee9;
 	margin-top : -20px;
 
@@ -356,7 +364,7 @@
 	content: '';
 	background-color: red;
     background: transparent url(../img/pattern.png) repeat top left; 
-}
+}*/
 
 .title-gallery {
 	text-align: center;
