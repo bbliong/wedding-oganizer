@@ -157,7 +157,10 @@
 				</div>
 				</div>
 				<!-- </div> -->
-				</div>
+			<div class="col-md-6 ">
+
+			</div>
+	</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.js"></script>
