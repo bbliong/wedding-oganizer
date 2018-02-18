@@ -14,12 +14,13 @@ class CreatePhotoGalleryTable extends Migration
      public function up()
     {
          Schema::create('photo_gallery', function (Blueprint $table) {
-            $table->increments('id_photo');
+            $table->string('id_photo', 10);
             $table->string('name_photo');
             $table->text('description');
             $table->integer('status');
             $table->integer('id_gallery');
             $table->timestamps();
+            $table->foreign('id_gallery')->references('id_gallery')->on('gallery')->onDelete('cascade');
         });
     }
 
