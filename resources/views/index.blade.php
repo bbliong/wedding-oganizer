@@ -100,6 +100,7 @@
 				<div class="col-md-3 col-sm-4 col-centered">
 
 				</div>
+<<<<<<< HEAD
 			@endfor
 		</div>
 	</div>
@@ -120,6 +121,11 @@
 		<div class="col-md-6 col-sm-12">
 			<img src="img/contact.jpg" class="img-contact" class="load">
 		</div>
+=======
+				</div>
+				<!-- </div> -->
+
+>>>>>>> 84e1ee116039d5194814248e738c783695a120b9
 	</div>
 	<div class="col-md-12 footer">
 		<div class="row">
